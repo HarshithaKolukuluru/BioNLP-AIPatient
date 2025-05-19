@@ -41,7 +41,8 @@ We construct a **Neo4j-based medical knowledge graph** from discharge summaries 
 - Relationships like `HAS_SYMPTOM`, `HAS_DURATION`, `HAS_MEDICAL_HISTORY` are captured.
 - Tools: `neo4j`, `openai`, `tenacity`, `pandas`, `re`
 
----
+![image](https://github.com/user-attachments/assets/16cc8d87-f5be-4d85-b202-f396f551d09e)
+
 
 ## LLM Agentic Workflow (Reasoning RAG)
 
@@ -54,6 +55,7 @@ We implement the **Reasoning RAG** framework using the **same prompts as the ori
 - **Checker Agent**: Verifies alignment between retrieved info and the query
 - **Rewrite Agent**: Generates realistic, personality-aligned responses
 - **Summarization Agent**: Updates conversation history
+![image](https://github.com/user-attachments/assets/b6f4a6f9-9be8-45d9-9e78-48b2edb30b91)
 
 ### Personality Simulation
 - Patients are simulated using **Big Five personality traits**.

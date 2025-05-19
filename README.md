@@ -1,13 +1,11 @@
 # BioNLP-AIPatient
 
 # AIPatient Reproduction: Simulating Patients with EHRs and LLM Agents
-
+![image](https://github.com/user-attachments/assets/83d9e76d-38fc-40ad-b50c-a49feec73114)
 This repository is a faithful **reproduction** of the research project titled:
 **"[AIPatient: Simulating Patients with EHRs and LLM Powered Agentic Workflow](https://arxiv.org/abs/2409.18924)" (Yu et al., 2024)**, originally published on arXiv.
 
 Our implementation replicates the core architecture and methodology described in the paper using real-world electronic health records (EHRs) and large language models (LLMs), while also integrating several improvements and adaptations.
-![image](https://github.com/user-attachments/assets/83d9e76d-38fc-40ad-b50c-a49feec73114)
-
 ![image](https://github.com/user-attachments/assets/6f681b8e-0feb-4ff9-aa28-14176278294d)
 
 ---

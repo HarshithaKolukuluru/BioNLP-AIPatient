@@ -36,7 +36,7 @@ We construct a **Neo4j-based medical knowledge graph** from discharge summaries 
   1. **Extraction Prompt** – identifies entities from the raw discharge note.
   2. **Self-Refinement Prompt** – verifies and corrects hallucinations or span errors.
 
-### 💾 Knowledge Graph (Neo4j AuraDB)
+### Knowledge Graph (Neo4j AuraDB)
 - Graph database schema mimics the original AIPatient KG
 - Relationships like `HAS_SYMPTOM`, `HAS_DURATION`, `HAS_MEDICAL_HISTORY` are captured.
 - Tools: `neo4j`, `openai`, `tenacity`, `pandas`, `re`
@@ -77,6 +77,6 @@ We implement the **Reasoning RAG** framework using the **same prompts as the ori
 
 ---
 
-## 📄 License
+## License
 
 This project is for academic, educational, and research purposes only. Please follow MIMIC-III data sharing and usage guidelines. All credit for the original architecture and prompts belongs to the authors of the referenced paper.

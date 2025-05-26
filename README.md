@@ -62,12 +62,8 @@ We implement the **Reasoning RAG** framework using the **same prompts as the ori
 - Personality-aware responses are generated via prompt conditioning.
 
 ## Evaluation Metrics
-- NER F1 score (manually inspected or annotated)
-- QA Accuracy (correctness of Cypher-based responses)
 - Readability: Flesch Reading Ease and Flesch-Kincaid Grade
-- Robustness to paraphrased questions
-- Stability across personality variants
-- 
+- Manual Validation
 ## Setup & Installation
 
 ### Requirements
